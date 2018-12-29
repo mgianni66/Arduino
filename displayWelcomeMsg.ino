@@ -14,8 +14,6 @@ void displayWelcomeMsg(int period) {
     " Ver.0.9 27/12/2018 ",    // line3
   };
 
- 
-  
   for(int i = 0; i < 4; i++){
     lcd.setCursor(0,i);
     lcd.print(messages[i]);
@@ -29,5 +27,4 @@ void displayWelcomeMsg(int period) {
     lcd.print(rollMessage);
     delay(period/20);
   }
-
 }
