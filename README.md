@@ -1,2 +1,2 @@
-# Arduino
-Progeti basati su arduino
+# Termoregolazione Cabina
+Controllo di temperatura e umidità per cabina armadio
